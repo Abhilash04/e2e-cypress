@@ -9,15 +9,15 @@ stages:
 # to point at the folders we can list as paths in "cache" job settings
 variables:
   npm_config_cache: /builds/cypress-io/cypress/.npm
-  CYPRESS_CACHE_FOLDER: /builds/cypress-io/cypress/cache/Cypress
+  CYPRESS_CACHE_FOLDER: /builds/cypress-io/cypress/cache/Cypress/3.4.0/Cypress/Cypress
 
 # cache using branch name
 # https://gitlab.com/help/ci/caching/index.md
 cache:
   key: ${CI_COMMIT_REF_SLUG}
   paths:
-    - .npm
-    - cache/Cypress
+    # - .npm
+    - cache/Cypress/3.4.0/Cypress/Cypress
     - node_modules
 
 # this job installs NPM dependencies and Cypress
