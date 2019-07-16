@@ -17,7 +17,7 @@ install:
 test:
   stage: test
   script:
-    - npm run
+    - npm run test
     
   artifacts:
     when: always
