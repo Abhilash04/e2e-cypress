@@ -29,7 +29,7 @@ install:
     # - npm run cy:verify
 
 # all jobs that actually run tests can use the same definition
-.job_template: &job
+e2e:
   image: cypress/base:10
   stage: test
   script:
