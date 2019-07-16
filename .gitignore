@@ -1,6 +1,7 @@
 # test results
+cypress/results
 cypress/videos
 cypress/screenshots
-cypress/results
+
 # node
 node_modules
