@@ -1,0 +1,41 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cypress open",
+    "test": "cypress run",
+    "update": "npm i cypress@latest typescript@latest ts-loader@latest webpack@latest @cypress/webpack-preprocessor@latest -S -E"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Abhilash04/cypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "typescript"
+  ],
+  "author": "Abhilash04",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Abhilash04/cypress/issues"
+  },
+  "homepage": "https://gitlab.com/Abhilash04/cypress#readme",
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "4.1.0",
+    "@types/mocha": "^5.2.7",
+    "cypress": "3.4.0",
+    "ts-loader": "6.0.4",
+    "typescript": "3.5.3",
+    "webpack": "4.35.3"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "cypress-multi-reporters": "^1.1.23",
+    "mocha-junit-reporters": "^1.23.6",
+    "mochawesome": "^4.0.1",
+    "mochawesome-merge": "^2.0.1",
+    "mochawesome-report-generator": "^4.0.1"
+  }
+}
