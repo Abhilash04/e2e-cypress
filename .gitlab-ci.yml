@@ -9,12 +9,12 @@ cache:
   paths:
     - node_modules
 
-install:
+build:
   stage: build
   script:
     - npm ci
 
-e2e:
+test:
   stage: test
   script:
     - npm run
