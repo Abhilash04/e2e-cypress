@@ -27,7 +27,7 @@ cypress-e2e:
   image: cypress/base:10
   stage: test
   script:
-    - $(npm bin)/cypress run
+    - $(npm bin)/cypress run --record --key f1bfa0a0-cfa6-4e6f-812d-71fecc264948
   artifacts:
     expire_in: 1 week
     when: always
@@ -40,7 +40,7 @@ cypress-e2e-chrome:
   image: cypress/browsers:chrome67
   stage: test
   script:
-    - $(npm bin)/cypress run --browser chrome
+    - $(npm bin)/cypress run --record --key f1bfa0a0-cfa6-4e6f-812d-71fecc264948 --browser chrome
   artifacts:
     expire_in: 1 week
     when: always
