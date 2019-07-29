@@ -15,3 +15,5 @@
 
 // We don't need custom commands as we use TypeScript and can 
 // create simple modules that we can import with more typesafety
+
+require('cypress-xpath')

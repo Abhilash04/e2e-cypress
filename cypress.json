@@ -1,4 +1,7 @@
 {
+    "baseUrl": "http://staging.mystake.io",
+    "pageLoadTimeout": 90000,
+    "defaultCommandTimeout": 90000,
     "reporter": "mochawesome",
     "reporterOptions": {
         "reportDir": "cypress/results",

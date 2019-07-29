@@ -5,6 +5,9 @@ const wp = require('@cypress/webpack-preprocessor')
 module.exports = (on) => {
   const options = {
     webpackOptions: {
+      // node: {
+      //   fs: "empty"
+      // },
       resolve: {
         extensions: [".ts", ".tsx", ".js"]
       },
