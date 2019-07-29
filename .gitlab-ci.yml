@@ -47,4 +47,3 @@ cypress-e2e-chrome:
     paths:
     - cypress/screenshots
     - cypress/results
-    
