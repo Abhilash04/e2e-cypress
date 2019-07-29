@@ -1,8 +1,8 @@
-import LoginPage from "../pages/login.po"
+import LoginPage from "../../pages/login.po"
 
 describe('login', () => {
     let loginPage: LoginPage;
-    let testdata = require("../test_data/testdata");
+    let testdata = require("../../test_data/testdata");
 
     beforeEach(function () {
         loginPage = new LoginPage()
